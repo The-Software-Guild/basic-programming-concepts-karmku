@@ -24,6 +24,6 @@ public class HealthyHearts {
         
         //printing the results
         System.out.println("Your maximum heart rate should be "+(220-age)+" beats per minute");
-        System.out.println("Your target HR Zone is 85 - "+(220-age-85)+" beats per minute.");
+        System.out.println("Your target HR Zone is "+((220-age)*50/100)+" - "+((220-age)*85/100)+" beats per minute.");
     }
 }
